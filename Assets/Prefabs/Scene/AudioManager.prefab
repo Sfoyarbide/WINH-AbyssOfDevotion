@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1589200288526494143
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1589200288526494140}
+  - component: {fileID: 466913091035768788}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1589200288526494140
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589200288526494143}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 737.81964, y: 442.90082, z: -973.231}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &466913091035768788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589200288526494143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55c932ec65502a84d95b092035f8b05f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: S
+    clip: {fileID: 8300000, guid: 2e2c1da47d873cf4db8bf52fa06ca86b, type: 3}
+    volume: 0.8
+    pitch: 2.75
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - name: L
+    clip: {fileID: 8300000, guid: 34c60070e1525b146b8284b6bdbf54a4, type: 3}
+    volume: 0.8
+    pitch: 2.75
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - name: A
+    clip: {fileID: 8300000, guid: 1004b0d5de2a45e4abc6a390a316d644, type: 3}
+    volume: 0.8
+    pitch: 2.75
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - name: F
+    clip: {fileID: 8300000, guid: 08a4fbd9086e98a43adf201443c9aa5e, type: 3}
+    volume: 0.8
+    pitch: 2.75
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - name: I
+    clip: {fileID: 8300000, guid: dc83ab7320acb46439a0004d2447ed92, type: 3}
+    volume: 0.8
+    pitch: 2.75
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - name: Walking
+    clip: {fileID: 8300000, guid: dc73c5edc7d2f8c45bd601301d045eeb, type: 3}
+    volume: 0.8
+    pitch: 2.5
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - name: OpeningDoor
+    clip: {fileID: 8300000, guid: cbf366f6889134e4aa1adc8bbae1075d, type: 3}
+    volume: 0.95
+    pitch: 1.5
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - name: OpeningBriefcase
+    clip: {fileID: 8300000, guid: 26fe9456407caa049954f07d182a228d, type: 3}
+    volume: 0.95
+    pitch: 1.5
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0

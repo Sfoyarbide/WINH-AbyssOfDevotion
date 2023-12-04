@@ -1,0 +1,235 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8947637155659249997
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8947637155659249994}
+  - component: {fileID: 8947637155659249995}
+  - component: {fileID: 8947637155659249996}
+  - component: {fileID: 5589374724231632938}
+  - component: {fileID: 7173481733872863113}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8947637155659249994
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8947637155659249997}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8947637155659249995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8947637155659249997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a86f926608ab53d4caaae54d5dadbaed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AllSkills:
+  - {fileID: 11400000, guid: 852044fd4a215c341a36f39c64182012, type: 2}
+  - {fileID: 11400000, guid: ccabbb9e3db5fc4439f45d7d3044d0bd, type: 2}
+  - {fileID: 11400000, guid: 766094d5840b89945ae4e4961332b73f, type: 2}
+  - {fileID: 11400000, guid: edc72b78348d7db47a8fa2b6cde8f8c5, type: 2}
+  - {fileID: 11400000, guid: 29b2e5f327b6bfc4eaf3bb2e9c387f26, type: 2}
+  - {fileID: 11400000, guid: 12d5fb7d3d4b98c4491292f8eb2f0dba, type: 2}
+  - {fileID: 11400000, guid: c84aa62cb78efd14d9edcea665fdfae8, type: 2}
+  - {fileID: 11400000, guid: 6d8d394a5b7aa6e4480fdad2bc5a5073, type: 2}
+  - {fileID: 11400000, guid: d9093d8f33cc6c545a07a125f2ac3d85, type: 2}
+  - {fileID: 11400000, guid: 303dcd9dfe6113a43a4b6b6f065b2f30, type: 2}
+  - {fileID: 11400000, guid: 84f99d91c6e8ada4abe964874242bb69, type: 2}
+  - {fileID: 11400000, guid: 7df3c1f20b8c97243b2400ef4a8c6e03, type: 2}
+  - {fileID: 11400000, guid: 9023fbbd14a0ab547b8e4c557f77c0d0, type: 2}
+--- !u!114 &8947637155659249996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8947637155659249997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdbd588a3ff2b3a41a72af0a317ad040, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsLoadGame: 0
+--- !u!114 &5589374724231632938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8947637155659249997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55c932ec65502a84d95b092035f8b05f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: S
+    clip: {fileID: 8300000, guid: 2e2c1da47d873cf4db8bf52fa06ca86b, type: 3}
+    volume: 0.8
+    pitch: 2.75
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - name: L
+    clip: {fileID: 8300000, guid: 34c60070e1525b146b8284b6bdbf54a4, type: 3}
+    volume: 0.8
+    pitch: 2.75
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - name: A
+    clip: {fileID: 8300000, guid: 1004b0d5de2a45e4abc6a390a316d644, type: 3}
+    volume: 0.8
+    pitch: 2.75
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - name: F
+    clip: {fileID: 8300000, guid: 08a4fbd9086e98a43adf201443c9aa5e, type: 3}
+    volume: 0.8
+    pitch: 2.75
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - name: I
+    clip: {fileID: 8300000, guid: dc83ab7320acb46439a0004d2447ed92, type: 3}
+    volume: 0.8
+    pitch: 2.75
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - name: H
+    clip: {fileID: 8300000, guid: 9d9f697e1e0e29045847a7b56781655c, type: 3}
+    volume: 0.5
+    pitch: 1.5
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - name: Walking
+    clip: {fileID: 8300000, guid: dc73c5edc7d2f8c45bd601301d045eeb, type: 3}
+    volume: 0.8
+    pitch: 2.5
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - name: Confirmation
+    clip: {fileID: 8300000, guid: c214974f19146b149ae48dae6f776dce, type: 3}
+    volume: 1
+    pitch: 2
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - name: OpeningDoor
+    clip: {fileID: 8300000, guid: cbf366f6889134e4aa1adc8bbae1075d, type: 3}
+    volume: 0.95
+    pitch: 1.5
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - name: OpeningBriefcase
+    clip: {fileID: 8300000, guid: 26fe9456407caa049954f07d182a228d, type: 3}
+    volume: 0.95
+    pitch: 1.5
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - name: Ringtone
+    clip: {fileID: 8300000, guid: b0f97ad3e1815914bb3daeeb4d3c3a3d, type: 3}
+    volume: 0.3
+    pitch: 1.7
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - name: ExploringSong
+    clip: {fileID: 8300000, guid: 91fb562c1547197488bcf73b099eacfa, type: 3}
+    volume: 0.4
+    pitch: 1
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 1
+  - name: MisterySong
+    clip: {fileID: 8300000, guid: 6eb0fa2a6a5e6954aa829ff2145b20d6, type: 3}
+    volume: 0.3
+    pitch: 1
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 1
+  - name: BattleSong
+    clip: {fileID: 8300000, guid: 53d060d592462da4b81c76021bba0473, type: 3}
+    volume: 0.4
+    pitch: 1
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 1
+  - name: EnterBattle
+    clip: {fileID: 8300000, guid: 61106d868e4a9004bb109fb064a32776, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - name: WinBattle
+    clip: {fileID: 8300000, guid: ea436202718871649b34e19405d74cca, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - name: GameOver
+    clip: {fileID: 8300000, guid: e4b0ebbfd015a6d49ad540e096418b14, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - name: NuclearAlarm
+    clip: {fileID: 8300000, guid: 958282f6175a701428ee38f0dad4c745, type: 3}
+    volume: 0.4
+    pitch: 1
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 1
+  - name: Train
+    clip: {fileID: 8300000, guid: d0fcd5123d700ed42a119ff056c90ae6, type: 3}
+    volume: 0.9
+    pitch: 1
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+--- !u!114 &7173481733872863113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8947637155659249997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 721e7a322dfee7d4993776d0148a946d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BM: {fileID: 0}
+  TEMP: 0
